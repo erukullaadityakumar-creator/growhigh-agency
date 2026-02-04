@@ -1,36 +1,20 @@
-# GrowHigh Agency
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-An AI-powered agency platform for automation and growth.
+# Run and deploy your AI Studio app
 
-## Prerequisites
+This contains everything you need to run your app locally.
 
-- Node.js 18 or higher
-- npm or yarn
+View your app in AI Studio: https://ai.studio/apps/drive/1hjMWG9Ze2ep0vIPFdc8wg2dG0BWpxdOg
 
-## Installation
+## Run Locally
 
-1. Clone this repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set the GEMINI_API_KEY in .env.local to your Gemini API key
+**Prerequisites:**  Node.js
 
-## Running the Application
 
-Development mode:
-```bash
-npm run dev
-```
-
-The app will be available at http://localhost:3000
-
-## Building for Production
-
-```bash
-npm run build
-```
-
-## Deployment
-
-You can deploy this app using Bolt, Vercel, or other hosting platforms that support Node.js/React applications.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
